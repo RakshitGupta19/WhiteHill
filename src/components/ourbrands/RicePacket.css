@@ -1,0 +1,22 @@
+.rice-card {
+  background-color: #2A0000; /* dark maroon */
+  border-radius: 40px;
+  padding: 25px 15px;
+  width: 250px;
+  margin: 20px;
+}
+
+.packet-img {
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  object-fit: contain;
+}
+
+.packet-label {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: serif;
+  font-weight: 500;
+}

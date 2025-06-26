@@ -1,0 +1,21 @@
+.intro-text {
+  max-width: 900px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: #310303 !important; /* Apply your custom color */
+  color: white !important;
+}
+
+.card-body i {
+  color: #000;
+}
+
+.card-body h6 {
+  font-weight: 600;
+  margin-top: 10px;
+}

@@ -1,0 +1,48 @@
+/* Heading styling */
+.slider-heading {
+  font-weight: bold;
+  color: #3a0303;
+}
+
+/* Brand icon styling */
+.brand-icon-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.brand-icon {
+  width: 60px;
+  height: 60px;
+}
+
+/* Slider image styling */
+.cert-image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: auto;
+}
+
+/* Center the slide content */
+.certificate-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Remove arrows background */
+.slick-prev:before,
+.slick-next:before {
+  color: #3a0303;
+  font-size: 30px;
+}
+
+/* Remove extra margin from dots */
+.slick-dots {
+  display: none !important;
+}
+
+/* Optional: Add padding to the container */
+.slider-container {
+  padding: 10px;
+}

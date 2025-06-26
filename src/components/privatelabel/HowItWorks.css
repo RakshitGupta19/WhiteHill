@@ -1,0 +1,71 @@
+.how-wrapper {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.how-heading {
+  margin-bottom: 40px;
+}
+
+.how-icon {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.how-title {
+  font-size: 2.5rem;
+  color: #330202;
+  font-weight: 500;
+}
+
+.how-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.how-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.how-step:last-child{
+  margin-bottom: 0;
+}
+
+.how-step.reverse {
+  flex-direction: row-reverse;
+}
+
+.how-img,
+.how-content {
+  flex: 1 1 50%;
+  padding: 20px;
+}
+
+.how-img img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.how-content h3 {
+  font-size: 1.25rem;
+  text-align: left;
+  color: #330202;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .how-step,
+  .how-step.reverse {
+    flex-direction: column !important;
+  }
+
+  .how-content h3 {
+    text-align: center;
+  }
+}

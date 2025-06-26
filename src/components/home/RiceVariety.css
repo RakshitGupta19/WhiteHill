@@ -1,0 +1,85 @@
+.btn-category {
+  background-color: #f7a042;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 25px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.btn-category.active,
+.btn-category:hover {
+  background-color: #3a0303;
+  color: white;
+}
+
+/* Rice container border */
+.rice-container {
+  border-radius: 20px !important;
+  border: 3px solid #f7a042 !important;
+}
+
+/* Card styling */
+.rice-card {
+  text-align: center;
+}
+
+/* Rice image styling */
+.rice-image {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Rice name */
+.rice-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #3a0303;
+}
+
+/* Heading below the icon */
+.slider-heading {
+  font-weight: bold;
+  color: #3a0303;
+}
+
+/* Brand icon wrapper */
+.brand-icon-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Brand icon styling */
+.brand-icon {
+  width: 60px;
+  height: 60px;
+}
+
+/* Rotate images slightly to avoid identical look */
+.rice-container .col-md-4:nth-child(1) .rice-image {
+  transform: rotate(-5deg);
+}
+
+.rice-container .col-md-4:nth-child(2) .rice-image {
+  transform: rotate(5deg);
+}
+
+.rice-container .col-md-4:nth-child(3) .rice-image {
+  transform: rotate(-15deg);
+}
+
+.rice-container .col-md-4:nth-child(4) .rice-image {
+  transform: rotate(15deg);
+}
+
+.rice-container .col-md-4:nth-child(5) .rice-image {
+  transform: rotate(-25deg);
+}
+
+.rice-container .col-md-4:nth-child(6) .rice-image {
+  transform: rotate(25deg);
+}

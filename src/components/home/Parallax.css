@@ -1,0 +1,66 @@
+/* Parallax background with dark overlay */
+.parallax-section {
+  background-image: url('https://www.whitehillagro.com/images/8sec.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 5%;
+}
+
+/* Dark overlay behind the content */
+.parallax-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Darkness */
+  z-index: 1; /* Behind content */
+}
+
+/* Content container */
+.content-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 2; /* Above the overlay */
+}
+
+/* Bright, crisp text */
+.parallax-text {
+  color: white;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+/* Bright seed image */
+.seed-image {
+  width: 80px;
+  height: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .parallax-text {
+    font-size: 28px;
+  }
+
+  .seed-image {
+    width: 60px;
+  }
+
+  .content-box {
+    flex-direction: column;
+  }
+}

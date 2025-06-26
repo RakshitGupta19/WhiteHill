@@ -1,0 +1,132 @@
+.infra-container {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.wheat-icon {
+  font-size: 3rem;
+  color: #d4a574;
+}
+
+.infra-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4a2c2a;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.units-section p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.production-text,
+.venture-text {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.process-section {
+  margin-bottom: 2rem;
+}
+
+.process-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4a2c2a;
+  margin-bottom: 1rem;
+}
+
+.process-section p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Bootstrap utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .infra-container {
+    padding: 2rem 1rem;
+  }
+
+  .infra-title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .wheat-icon {
+    font-size: 2.5rem;
+  }
+
+  .intro-text,
+  .production-text,
+  .venture-text,
+  .units-section p,
+  .process-section p {
+    font-size: 0.9rem;
+  }
+
+  .process-title {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .infra-title {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  .wheat-icon {
+    font-size: 2rem;
+  }
+}
