@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("../../public/fonts/Oswald-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .custom-footer {
   background: #2c0706;
   color: white;
@@ -29,6 +36,7 @@
 }
 
 .footer-section-title {
+  font-family: "Oswald";
   color: #ffe4b5;
   font-size: 1.2rem;
   font-weight: bold;
@@ -54,10 +62,12 @@
 }
 
 .footer-links li {
+  font-family: "Oswald";
   margin-bottom: 0.5rem;
 }
 
 .footer-links a {
+  font-family: "Oswald";
   color: #e5e5e5;
   text-decoration: none;
   font-size: 1rem;
@@ -77,6 +87,7 @@
 }
 
 .contact-item {
+  font-family: "Oswald";
   margin-bottom: 0.7rem;
   line-height: 1.6;
 }
@@ -86,6 +97,7 @@
 }
 
 .contact-label {
+  font-family: "Oswald";
   color: #fff;
   font-weight: 600;
   display: inline-block;
@@ -116,6 +128,7 @@
 }
 
 .copyright-section {
+  font-family: "Oswald";
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 1.5rem;
   text-align: center;

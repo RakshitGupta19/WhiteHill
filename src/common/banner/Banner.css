@@ -5,3 +5,9 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 575px) {
+  .banner-container {
+    padding: 65% 0; /* Adjust based on how tall you want it on mobile */
+  }
+}
