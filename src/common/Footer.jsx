@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Footer.css";
 
 export default function Footer() {
@@ -6,11 +7,12 @@ export default function Footer() {
     <footer className="custom-footer">
       <div className="container">
         <div className="row">
-          {/* Logo and Company Info */}
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="footer-logo">
               <div className="logo-icon2">
-                <img src="/images/logo.png" alt="Logo" />
+                <Link to="/">
+                  <img src="/images/logo.png" alt="Logo" />
+                </Link>
               </div>
             </div>
           </div>
@@ -19,14 +21,14 @@ export default function Footer() {
           <div className="col-lg-3 col-md-6 mb-4">
             <h3 className="footer-section-title">Quick Links</h3>
             <ul className="footer-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Our Brands</a></li>
-              <li><a href="#">Infrastructure</a></li>
-              <li><a href="#">Private Labelling</a></li>
-              <li><a href="#">Partnership</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="/products">Products</Link></li>
+              <li><Link to="/ourbrands">Our Brands</Link></li>
+              <li><Link to="/infrastructure">Infrastructure</Link></li>
+              <li><Link to="/private-labelling">Private Labelling</Link></li>
+              <li><Link to="/partnership">Partnership</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
 
@@ -40,9 +42,9 @@ export default function Footer() {
               </div>
               <div className="contact-item">
                 <span className="contact-label">Phone :</span>
-                <span className="phone-numbers">+91 99919-99785</span>
+                <a href="tel:+919991999785" className="phone-numbers">+91 99919-99785</a>
                 <span className="contact-value"> (or) </span>
-                <span className="phone-numbers">+91 99913-33785</span>
+                <a href="tel:+919991333785" className="phone-numbers">+91 99913-33785</a>
               </div>
               <div className="contact-item">
                 <span className="contact-label">Email :</span>
@@ -60,7 +62,7 @@ export default function Footer() {
             © Copyright White Hill Agro Products Pvt. Ltd. — All Rights Reserved
           </p>
           <p className="created-by">
-            Created by: <a href="#" target="_blank" rel="noopener noreferrer">Pitamaas</a>
+            Created by: <a href="https://www.pitamaas.com/" target="_blank" rel="noopener noreferrer">Pitamaas</a>
           </p>
         </div>
       </div>

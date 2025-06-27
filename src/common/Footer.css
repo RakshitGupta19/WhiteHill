@@ -81,6 +81,10 @@
   line-height: 1.6;
 }
 
+.contact-item a{
+  text-decoration: none;
+}
+
 .contact-label {
   color: #fff;
   font-weight: 600;

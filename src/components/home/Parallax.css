@@ -1,6 +1,6 @@
 /* Parallax background with dark overlay */
 .parallax-section {
-  background-image: url('https://www.whitehillagro.com/images/8sec.jpg');
+  background-image: url('../../../public/images/home/parallaximage.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;

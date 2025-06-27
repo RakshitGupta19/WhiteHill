@@ -3,9 +3,9 @@ import './Countries.css';
 
 export default function Countries() {
   const countries = [
-    { name: 'MADAGASCAR', image: '/images/madagascar.png' },
-    { name: 'NEW ZEALAND', image: '/images/newzealand.png' },
-    { name: 'MIDDLE EAST', image: '/images/middleeast.png' }
+    { name: 'MADAGASCAR', image: '/images/ourbrands/madagascar.png' },
+    { name: 'NEW ZEALAND', image: '/images/ourbrands/newzealand.png' },
+    { name: 'MIDDLE EAST', image: '/images/ourbrands/middleeast.png' }
   ];
 
   return (

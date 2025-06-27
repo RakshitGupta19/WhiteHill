@@ -7,10 +7,12 @@ import "slick-carousel/slick/slick-theme.css"
 export default function BrandSlider() {
   const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1024,
@@ -28,14 +30,9 @@ export default function BrandSlider() {
   }
 
   const brands = [
-    { id: 1, img: "/images/logo.png", alt: "Pyare Mohan" },
-    { id: 2, img: "/images/logo.png", alt: "Dream Line" },
-    { id: 3, img: "/images/logo.png", alt: "Shree Sidh" },
-    { id: 4, img: "/images/logo.png", alt: "New Brand" }, // Optional: add more
-    { id: 5, img: "/images/logo.png", alt: "Pyare Mohan" },
-    { id: 6, img: "/images/logo.png", alt: "Dream Line" },
-    { id: 7, img: "/images/logo.png", alt: "Shree Sidh" },
-    { id: 8, img: "/images/logo.png", alt: "New Brand" }, // Optional: add more
+    { id: 1, img: "/images/home/PyareMohan.png", alt: "Pyare Mohan" },
+    { id: 2, img: "/images/home/DreamLine.png", alt: "Dream Line" },
+    { id: 3, img: "/images/home/ShreeSidh.png", alt: "Shree Sidh" },
   ]
 
   return (

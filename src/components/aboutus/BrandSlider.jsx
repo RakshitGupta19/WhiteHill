@@ -4,9 +4,13 @@ import "./BrandSlider.css";
 
 export default function BrandSlider() {
   const brands = [
-    "/images/rice.png",
-    "/images/rice.png",
-    "/images/rice.png",
+    "/images/about/Musafa.png",
+    "/images/about/SSTibar.png",
+    "/images/about/RajaBeta.png",
+    "/images/about/SwordRice.png",
+    "/images/about/WhiteHill.png",
+    "/images/about/DL1121.png",
+    "/images/about/NayshaRice.png",
   ];
 
   const settings = {

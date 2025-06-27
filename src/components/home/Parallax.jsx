@@ -8,7 +8,7 @@ export default function Parallax() {
         <h2 className="parallax-text">
           "Your Path to Premium Rice Starts Here."
         </h2>
-        <img src="/images/seedimage.png" alt="Seed" className="seed-image" />
+        <img src="/images/home/seedimage.png" alt="Seed" className="seed-image" />
       </div>
     </div>
   );

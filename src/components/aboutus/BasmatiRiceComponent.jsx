@@ -5,13 +5,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  "https://whitehillagro.com/images/main-slider/2.png",
-  "https://whitehillagro.com/images/main-slider/2.png",
-  "https://whitehillagro.com/images/main-slider/2.png",
-  "https://whitehillagro.com/images/main-slider/2.png",
-  "https://whitehillagro.com/images/main-slider/2.png",
-  "https://whitehillagro.com/images/main-slider/2.png"
-
+  "/images/about/about.png",
+  "/images/about/about1.png",
+  "/images/about/about2.png",
+  "/images/about/about3.png",
 ];
 
 export default function BasmatiRiceComponent() {

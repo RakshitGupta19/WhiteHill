@@ -39,11 +39,11 @@ export default function CertificationSlider() {
   };
 
   const certificates = [
-    '/images/ISO.png',
-    '/images/ISO.png',
-    '/images/ISO.png',
-    '/images/ISO.png',
-    '/images/ISO.png',
+    '/images/home/fssai.png',
+    '/images/home/ISO.png',
+    '/images/home/HACCP.png',
+    '/images/home/GMP.png',
+    '/images/home/APEDA.png',
   ];
 
   return (

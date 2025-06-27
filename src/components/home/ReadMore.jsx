@@ -9,7 +9,7 @@ export default function ReadMore() {
         <div className="container">
           <div className="ReadMore-content">
             <div className="ReadLeft">
-              <img src="/images/3sec.png" alt="Farmer with rice" className="farmer-illustration" />
+              <img src="/images/home/3sec.png" alt="Farmer with rice" className="farmer-illustration" />
             </div>
             <div className="ReadRight">
               <p className="company-text">

@@ -3,14 +3,14 @@ import "./WhyChooseUs.css";
 
 export default function WhyChooseUs() {
   const data = [
-    { text: "Rice Mill", image: "/images/ricemill.png" },
-    { text: "Quality Rice", image: "/images/ricemill.png" },
-    { text: "Active Management", image: "/images/ricemill.png" },
-    { text: "Strong Infrastructure", image: "/images/ricemill.png" },
-    { text: "Packaging Plant", image: "/images/ricemill.png" },
-    { text: "Large Warehouses", image: "/images/ricemill.png" },
-    { text: "Quality Testing Labs", image: "/images/ricemill.png" },
-    { text: "Dedicated Team", image: "/images/ricemill.png" },
+    { text: "Rice Mill", image: "/images/privatelabel/ricemill.png" },
+    { text: "Quality Rice", image: "/images/privatelabel/qualityrice.png" },
+    { text: "Active Management", image: "/images/privatelabel/activemanagement.png" },
+    { text: "Strong Infrastructure", image: "/images/privatelabel/stronginfrastructure.png" },
+    { text: "Packaging Plant", image: "/images/privatelabel/packagingplant.png" },
+    { text: "Large Warehouses", image: "/images/privatelabel/largewarehouses.png" },
+    { text: "Quality Testing Labs", image: "/images/privatelabel/qualitytestinglabs.png" },
+    { text: "Dedicated Team", image: "/images/privatelabel/dedicatedteams.png" },
     
   ];
 
