@@ -17,13 +17,13 @@ export default function PartnerForm() {
 
       <div className="text-center mb-4">
         <button
-          className={`btn mx-2 ${formType === 'international' ? 'btn-dark' : 'btn-outline-dark'}`}
+          className={`btn mx-2 mb-4 ${formType === 'international' ? 'btn-dark' : 'btn-outline-dark'}`}
           onClick={() => setFormType('international')}
         >
           INTERNATIONAL BUYER
         </button>
         <button
-          className={`btn mx-2 ${formType === 'domestic' ? 'btn-dark' : 'btn-outline-dark'}`}
+          className={`btn mx-2 mb-4 ${formType === 'domestic' ? 'btn-dark' : 'btn-outline-dark'}`}
           onClick={() => setFormType('domestic')}
         >
           DOMESTIC DISTRIBUTOR

@@ -2,7 +2,6 @@
   text-align: center;
   padding: 60px 20px;
   background-color: #fff;
-  font-family: 'Georgia', serif;
 }
 
 .brand-slider-icon {
@@ -14,12 +13,6 @@
   font-size: 36px;
   color: #3b1d1d;
   margin-bottom: 5px;
-}
-
-.brand-slider-line {
-  width: 200px;
-  margin: 0 auto 40px;
-  border: 1px solid #3b1d1d;
 }
 
 .brand-slider-container {

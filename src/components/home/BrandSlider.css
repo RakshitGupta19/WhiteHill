@@ -90,4 +90,7 @@
   .brand-overlay {
     font-size: 0.9rem;
   }
+  .brand-card img {
+    max-height: 215px;
+  }
 }

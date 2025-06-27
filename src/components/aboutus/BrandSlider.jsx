@@ -39,8 +39,7 @@ export default function BrandSlider() {
   return (
     <div className="brand-slider-section">
       <img src="/images/icon-crops.png" alt="Icon" className="brand-slider-icon" />
-      <h2 className="brand-slider-title">Our Brands</h2>
-      <hr className="brand-slider-line" />
+      <h2 className="slider-heading">Our Brands</h2>
 
       <div className="brand-slider-container">
         <Slider {...settings}>

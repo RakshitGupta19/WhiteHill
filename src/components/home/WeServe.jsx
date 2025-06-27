@@ -47,7 +47,6 @@ export default function WeServe() {
                 </div>
               </div>
             </div>
-            {index < sections.length - 1 && <div className="weServe-connecting-line"></div>}
           </div>
         ))}
       </div>

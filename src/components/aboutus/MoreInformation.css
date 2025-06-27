@@ -1,7 +1,6 @@
 .more-info-section {
   text-align: center;
   padding: 40px 20px;
-  font-family: 'Georgia', serif;
   background-color: #fff;
 }
 
@@ -15,12 +14,6 @@
   font-weight: 600;
   color: #3b1d1d;
   margin-bottom: 5px;
-}
-
-.title-line {
-  width: 200px;
-  margin: 0 auto 30px;
-  border: 1px solid #3b1d1d;
 }
 
 .info-table {

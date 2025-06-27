@@ -20,8 +20,7 @@ export default function MoreInformation() {
   return (
     <div className="more-info-section">
       <img src="/images/icon-crops.png" alt="wheat icon" className="top-icon" />
-      <h2 className="info-title">More Information</h2>
-      <hr className="title-line" />
+      <h2 className="slider-heading">More Information</h2>
 
       <div className="info-table">
         {data.map(([label, value], index) => (

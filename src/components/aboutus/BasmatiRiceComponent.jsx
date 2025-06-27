@@ -38,7 +38,7 @@ export default function BasmatiRiceComponent() {
 
   return (
     <div className="basmati-container">
-      <h2 className="title">
+      <h2 className="slider-heading">
         Basmati Rice Manufacturer, Supplier and Exporter from India.
       </h2>
       <hr className="title-underline" />
