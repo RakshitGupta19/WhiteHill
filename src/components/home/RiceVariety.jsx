@@ -43,7 +43,7 @@ export default function RiceVariety() {
       <div className="border rounded p-4 rice-container">
         <div className="row justify-content-center">
           {riceList.map((rice) => (
-            <div key={rice.id} className="col-md-4 mb-4">
+            <div key={rice.id} className="rice-col col-md-4 mb-4">
               <img
                 src={rice.image}
                 alt={rice.name}
