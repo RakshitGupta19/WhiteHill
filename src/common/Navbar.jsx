@@ -4,19 +4,18 @@ import './Navbar.css';
 
 export default function Navbar() {
   const location = useLocation();
-  
-  // Function to check if current path matches the link
+
   const isActive = (path) => {
     return location.pathname === path;
   };
-
-  // Function to check if current path is within a dropdown section
   const isDropdownActive = (paths) => {
     return paths.some(path => location.pathname === path);
   };
 
   return (
     <>
+      <div className="translate-bar" id="google_translate_element"></div>
+
       <nav className="navbar navbar-expand-lg custom-navbar">
         <div className="container">
           <Link className="navbar-brand" to="/">
